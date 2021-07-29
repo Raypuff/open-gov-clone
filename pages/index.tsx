@@ -226,10 +226,10 @@ const Home: FC = () => {
           </div>
           <div className="flex justify-center">
             <div className="flex flex-col items-center">
-              <h1 className=" text-[32px] text-gov font-bold mt-16">
+              <h1 className="mt-16 font-bold text-[32px] text-gov">
                 Learn about the rest of our products.
               </h1>
-              <div className="black-button mt-4">PRODUCT OVERVIEW</div>
+              <div className="mt-4 black-button">PRODUCT OVERVIEW</div>
             </div>
           </div>
         </div>
