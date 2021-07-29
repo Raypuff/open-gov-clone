@@ -1,3 +1,41 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .nav-link {
+    @apply hidden font-bold text-[15px] whitespace-nowrap cursor-pointer h-full pr-6 mr-4 border-b-4 border-white hover:border-gov hover:text-gov xl:flex items-center;
+  }
+
+  .chevron {
+    @apply text-lg ml-1;
+  }
+
+  .black-button {
+    @apply py-4 w-max font-bold bg-black text-white border-white cursor-pointer px-7 border-[1px] hover:bg-white hover:text-black;
+  }
+
+  .white-button {
+    @apply py-4 w-max font-bold  text-black border-black cursor-pointer px-7 border-[1px] hover:bg-black hover:text-white;
+  }
+
+  .do-subheader {
+    @apply text-gov text-center whitespace-nowrap text-[1.625rem] font-bold mt-4;
+  }
+
+  .do-para {
+    @apply text-[#767676] text-xl text-center mt-4;
+  }
+
+  .made-subheader {
+    @apply text-gov text-[1.625rem] font-bold;
+  }
+
+  .made-para {
+    @apply text-[#767676] text-xl;
+  }
+
+  .grid-res-2 {
+    @apply grid grid-rows-2 md:grid-rows-none md:grid-cols-2 md:mb-16;
+  }
+}
