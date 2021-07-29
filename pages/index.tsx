@@ -12,6 +12,10 @@ import parking from "../assets/parkingsg_nobg.png";
 import gogovsg from "../assets/go.gov.sg_nobg.png";
 import scamshield from "../assets/scamshield_nobg.png";
 import formsg from "../assets/formsg_nobg.png";
+import manager from "../assets/product-manager.svg";
+import software from "../assets/software-engineer.svg";
+import designer from "../assets/product-designer.svg";
+import interns from "../assets/interns.svg";
 import { HiOutlineMenu } from "react-icons/hi";
 import { RiSearchLine } from "react-icons/ri";
 import { VscChevronDown } from "react-icons/vsc";
@@ -224,12 +228,82 @@ const Home: FC = () => {
               <div className="mt-8 white-button">LEARN MORE</div>
             </div>
           </div>
-          <div className="flex justify-center">
+          <div className="flex justify-center mb-4">
             <div className="flex flex-col items-center">
               <h1 className="mt-16 font-bold text-[32px] text-gov">
                 Learn about the rest of our products.
               </h1>
               <div className="mt-4 black-button">PRODUCT OVERVIEW</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Careers Join us */}
+      <div className="mt-10 bg-white">
+        <div className="px-6 py-12 mx-auto lg:max-w-5xl lg:px-7 xl:max-w-7xl 1.5xl:max-w-[1380px]">
+          <h2 className="text-center text-gov">CAREERS</h2>
+          <h1 className="mb-24 font-bold text-center text-gov text-[54px]">
+            Join us
+          </h1>
+          <div className="grid grid-rows-3 md:grid-rows-none md:grid-cols-3">
+            <div className="flex flex-col items-center px-3 pb-8">
+              <Image src={manager} alt="product manager" />
+              <h2 className="do-subheader">Product Manager</h2>
+              <p className="do-para">
+                You chart product goals. You plug gaps and gel things together
+                to drive the project forward.
+              </p>
+              <div className="readmore">READ MORE</div>
+            </div>
+            <div className="flex flex-col items-center px-3">
+              <Image src={software} alt="software engineer" />
+              <h2 className="do-subheader">Software Engineer</h2>
+              <p className="do-para">
+                You solve problems. You design and build systems and make sure
+                they work.
+              </p>
+              <div className="readmore">READ MORE</div>
+            </div>
+            <div className="flex flex-col items-center px-3">
+              <Image src={designer} alt="product designer" />
+              <h2 className="do-subheader">Product Designer</h2>
+              <p className="do-para">
+                You bridge user needs and business goals. You make the product
+                work well and look good.
+              </p>
+              <div className="readmore">READ MORE</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* INTERNS */}
+      <div className=" bg-[#f7f7f7]">
+        <div className="flex flex-col items-center justify-center px-6 py-12 mx-auto lg:flex-row lg:max-w-5xl lg:px-7 xl:max-w-7xl 1.5xl:max-w-[1380px]">
+          <div className="">
+            <Image src={interns} alt="interns" />
+          </div>
+          <h2 className="mt-2 mb-4 text-3xl font-bold text-center text-black lg:my-0 lg:ml-4 lg:mr-12">
+            are welcome all year round
+          </h2>
+          <div className="">
+            <div className="black-button">LEARN MORE</div>
+          </div>
+        </div>
+      </div>
+
+      {/* Apply now */}
+      <div className="bg-contain bg-people-pattern">
+        <div className="flex flex-col items-center justify-center px-6 py-12 mx-auto lg:flex-row lg:max-w-5xl lg:px-7 xl:max-w-7xl 1.5xl:max-w-[1380px]">
+          <div className="flex justify-center mb-4">
+            <div className="flex flex-col items-center px-36">
+              <h1 className="z-10 mt-16 font-bold text-center text-white text-[44px]">
+                Join us on our mission to build tech for public good.
+              </h1>
+              <div className="mt-4 text-white bg-transparent border-white black-button">
+                APPLY NOW
+              </div>
             </div>
           </div>
         </div>

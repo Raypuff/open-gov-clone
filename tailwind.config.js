@@ -28,6 +28,7 @@ module.exports = {
       },
       backgroundImage: (theme) => ({
         "public-good": "url('../assets/home-banner.png')",
+        "people-pattern": "url('../assets/peoplepattern.png')",
       }),
     },
   },

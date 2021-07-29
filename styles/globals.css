@@ -38,4 +38,8 @@
   .grid-res-2 {
     @apply grid grid-rows-2 md:grid-rows-none md:grid-cols-2 md:mb-16;
   }
+
+  .readmore {
+    @apply text-xl text-gov underline font-bold tracking-widest mt-12 hover:opacity-50 cursor-pointer;
+  }
 }
