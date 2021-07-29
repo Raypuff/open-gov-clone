@@ -174,10 +174,10 @@ const Home: FC = () => {
             </div>
           </div>
           <div className="grid-res-2">
-            <div className="self-center order-2 px-3 md:px-6 lg:px-12 xl:px-28">
+            <div className="self-center order-1 px-3 lg:order-2 md:px-6 lg:px-12 xl:px-28">
               <Image src={parking} alt="parking.sg" />
             </div>
-            <div className="self-center order-1 px-6 md:px-16 md:py-8">
+            <div className="self-center order-2 px-6 lg:order-1 md:px-16 md:py-8">
               <h2 className="made-subheader">Parking.SG</h2>
               <p className="mt-4 made-para">
                 Parking.sg is a mobile application that allows drivers to pay
@@ -202,10 +202,10 @@ const Home: FC = () => {
           </div>
 
           <div className="grid-res-2">
-            <div className="self-center order-2 px-3 md:px-6 lg:px-12 xl:px-28">
+            <div className="self-center order-1 px-3 lg:order-2 md:px-6 lg:px-12 xl:px-28">
               <Image src={scamshield} alt="scamshield" />
             </div>
-            <div className="self-center order-1 px-6 md:px-16 md:py-8">
+            <div className="self-center order-2 px-6 lg:order-1 md:px-16 md:py-8">
               <h2 className="made-subheader">ScamShield</h2>
               <p className="mt-4 made-para">
                 ScamShield is a mobile app that actively works in the background
@@ -230,7 +230,7 @@ const Home: FC = () => {
           </div>
           <div className="flex justify-center mb-4">
             <div className="flex flex-col items-center">
-              <h1 className="mt-16 font-bold text-[32px] text-gov">
+              <h1 className="mt-16 font-bold text-center text-[32px] text-gov">
                 Learn about the rest of our products.
               </h1>
               <div className="mt-4 black-button">PRODUCT OVERVIEW</div>
@@ -297,8 +297,8 @@ const Home: FC = () => {
       <div className="bg-contain bg-people-pattern">
         <div className="flex flex-col items-center justify-center px-6 py-12 mx-auto lg:flex-row lg:max-w-5xl lg:px-7 xl:max-w-7xl 1.5xl:max-w-[1380px]">
           <div className="flex justify-center mb-4">
-            <div className="flex flex-col items-center px-36">
-              <h1 className="z-10 mt-16 font-bold text-center text-white text-[44px]">
+            <div className="flex flex-col items-center  lg:px-36">
+              <h1 className="z-10 mt-16 font-bold text-center text-white text-[32px] lg:text-[44px]">
                 Join us on our mission to build tech for public good.
               </h1>
               <div className="mt-4 text-white bg-transparent border-white black-button">
